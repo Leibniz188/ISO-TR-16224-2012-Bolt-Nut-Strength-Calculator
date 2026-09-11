@@ -43,17 +43,13 @@ $$
 最终自动比较：
 
 $$
-F_{\mathrm{control}}
-=
-\min(F_{Bb},F_{Sb},F_{Sn})
+F_{\mathrm{control}}=\min(F_{Bb},F_{Sb},F_{Sn})
 $$
 
 并给出安全系数处理后的允许载荷：
 
 $$
-F_{\mathrm{allow}}
-=
-\frac{F_{\mathrm{control}}}{n}
+F_{\mathrm{allow}}=\frac{F_{\mathrm{control}}}{n}
 $$
 
 其中 `n` 为用户输入的安全系数。
@@ -82,9 +78,7 @@ thread_angle = 60.0
 基本三角形高度：
 
 $$
-H=
-\frac{P}
-{2\tan(\alpha/2)}
+H=\frac{P}{2\tan(\alpha/2)}
 $$
 
 其中：
@@ -204,17 +198,13 @@ $$
 单端倒角：
 
 $$
-m_{\mathrm{eff}}
-=
-m-0.6h_c
+m_{\mathrm{eff}}=m-0.6h_c
 $$
 
 双端倒角：
 
 $$
-m_{\mathrm{eff}}
-=
-m-1.2h_c
+m_{\mathrm{eff}}=m-1.2h_c
 $$
 
 ---
@@ -230,9 +220,7 @@ $$
 代替 60° 情况下的：
 
 $$
-\frac{1}{\sqrt 3}
-=
-\tan30^\circ
+\frac{1}{\sqrt 3}=\tan30^\circ
 $$
 
 程序计算：
@@ -270,17 +258,13 @@ $$
 外螺纹：
 
 $$
-F_{Sb}
-=
-0.6R_mA_{Sb}C_1C_2
+F_{Sb}=0.6R_mA_{Sb}C_1C_2
 $$
 
 内螺纹：
 
 $$
-F_{Sn}
-=
-0.6R_{mn}A_{Sn}C_1C_3
+F_{Sn}=0.6R_{mn}A_{Sn}C_1C_3
 $$
 
 ---
