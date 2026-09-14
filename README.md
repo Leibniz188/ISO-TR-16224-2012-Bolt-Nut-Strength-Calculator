@@ -183,8 +183,7 @@ $$
 程序同时保留名义应力面积作为对照：
 
 $$
-A_{s,\mathrm{nom}}
-=
+A_{s,\mathrm{nom}} =
 \frac{\pi}{4}
 \left(
 \frac{d_2+d_3}{2}
